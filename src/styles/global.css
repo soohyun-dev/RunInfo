@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  white-space: break-spaces;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  @apply bg-white text-neutral-900;
+  font-family:
+    Pretendard Variable,
+    Pretendard,
+    Pretendard JP,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    "Helvetica Neue",
+    "Segoe UI",
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    "Malgun Gothic",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    sans-serif;
+}
+
+input,
+textarea,
+button,
+code,
+div {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #aaaaaa;
+}
